@@ -10,7 +10,7 @@ from __future__ import absolute_import
 
 from tornado.web import HTTPError
 
-from ork.core.i18n import _
+from ..core.i18n import _
 
 
 class Error(Exception):

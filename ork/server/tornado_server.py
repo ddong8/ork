@@ -15,8 +15,8 @@ from tornado import process
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
 
-from ork.core.config import CONF
-from ork.server.base_application import application
+from ..core.config import CONF
+from ..server.base_application import application
 
 
 def main():

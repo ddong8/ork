@@ -18,9 +18,9 @@ from sqlalchemy import text
 from sqlalchemy.dialects.postgresql.json import JSONB
 from sqlalchemy.ext.declarative import declarative_base
 
-from ork.db.dictbase import DictBase
-from ork.db.validator import Validate
-from ork.db.validator import declarative_constructor
+from ..db.dictbase import DictBase
+from ..db.validator import Validate
+from ..db.validator import declarative_constructor
 
 Base = declarative_base(constructor=declarative_constructor)
 Validate(Base)

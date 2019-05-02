@@ -14,11 +14,11 @@ import functools
 import json
 import logging
 
-from ork.common.message import PRODUCER
-from ork.core import config
-from ork.core import utils
-from ork.core.i18n import _
-from ork.db.resource import SysOperationLog
+from ..common.message import PRODUCER
+from ..core import config
+from ..core import utils
+from ..core.i18n import _
+from ..db.resource import SysOperationLog
 
 LOG = logging.getLogger(__name__)
 CONF = config.CONF

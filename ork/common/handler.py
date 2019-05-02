@@ -11,9 +11,9 @@ from __future__ import absolute_import
 import copy
 import json
 
-from ork.core.base import BaseHandler
-from ork.core.base import BaseWebSocketHandler
-from ork.core.utils import ComplexEncoder
+from ..core.base import BaseHandler
+from ..core.base import BaseWebSocketHandler
+from ..core.utils import ComplexEncoder
 
 
 # from .logger import change_log

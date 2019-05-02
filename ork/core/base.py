@@ -16,9 +16,9 @@ import re
 from tornado.web import RequestHandler
 from tornado.websocket import WebSocketHandler
 
-from ork.core import exception
-from ork.core import utils
-from ork.core.i18n import _
+from ..core import exception
+from ..core import utils
+from ..core.i18n import _
 
 LOG = logging.getLogger(__name__)
 

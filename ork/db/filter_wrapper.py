@@ -13,7 +13,7 @@ import re
 from sqlalchemy.sql.expression import BinaryExpression
 from sqlalchemy.sql.sqltypes import _type_map
 
-from ork.core import utils
+from ..core import utils
 
 RE_CIDR = re.compile(r'^(\d{1,3}\.){0,3}\d{1,3}/\d{1,2}$')
 RE_IP = re.compile(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$')

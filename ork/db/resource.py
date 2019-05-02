@@ -10,8 +10,8 @@ from __future__ import absolute_import
 
 import logging
 
-from ork.db import models
-from ork.db.curd import ResourceBase
+from ..db import models
+from ..db.curd import ResourceBase
 
 LOG = logging.getLogger(__name__)
 

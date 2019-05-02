@@ -12,12 +12,12 @@ import datetime
 import json
 import logging
 
-from ork.apps.traffic import resource
-from ork.common.consumer import MessageConsumer
-from ork.common.consumer import SubscribeConsumer
-from ork.common.handler import CollectionHandler
-from ork.common.handler import ItemHandler
-from ork.common.handler import WSHandler
+from ...apps.traffic import resource
+from ...common.consumer import MessageConsumer
+from ...common.consumer import SubscribeConsumer
+from ...common.handler import CollectionHandler
+from ...common.handler import ItemHandler
+from ...common.handler import WSHandler
 
 LOG = logging.getLogger(__name__)
 

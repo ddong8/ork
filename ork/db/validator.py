@@ -29,7 +29,7 @@ from sqlalchemy.dialects.postgresql.base import MACADDR
 from sqlalchemy.dialects.postgresql.json import JSON
 from sqlalchemy.dialects.postgresql.json import JSONB
 
-from ork.core.exception import ValidationError
+from ..core.exception import ValidationError
 
 if six.PY3:
     string_type = str

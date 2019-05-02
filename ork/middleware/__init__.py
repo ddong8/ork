@@ -8,7 +8,7 @@
 
 from __future__ import absolute_import
 
-from ork.middleware.httpauth import HTTPAuthorization
+from ..middleware.httpauth import HTTPAuthorization
 
 
 def get_middleware():

@@ -10,9 +10,9 @@ from __future__ import absolute_import
 
 import base64
 
-from ork.core import exception
-from ork.core import utils
-from ork.core.i18n import _
+from ..core import exception
+from ..core import utils
+from ..core.i18n import _
 from .base_middleware import MiddleWare
 
 

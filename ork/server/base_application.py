@@ -14,9 +14,9 @@ import sys
 import tornado.options
 import tornado.web
 
-from ork.core import config
-from ork.db import pool
-from ork.middleware import get_middleware
+from ..core import config
+from ..db import pool
+from ..middleware import get_middleware
 
 CONF = config.CONF
 

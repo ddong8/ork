@@ -15,7 +15,7 @@ import logging
 import pika
 from pika.adapters.tornado_connection import TornadoConnection
 
-from ork.core.config import CONF
+from ..core.config import CONF
 
 LOGGER = logging.getLogger(__name__)
 

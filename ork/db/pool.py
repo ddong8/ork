@@ -12,8 +12,8 @@ import sqlalchemy
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.orm import sessionmaker
 
-from ork.core.config import CONF
-from ork.core import decorators as deco
+from ..core.config import CONF
+from ..core import decorators as deco
 
 
 @deco.singleton

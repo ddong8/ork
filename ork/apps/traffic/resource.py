@@ -8,9 +8,9 @@
 
 from __future__ import absolute_import
 
-from ork.core import utils
-from ork.db import models
-from ork.db.curd import ResourceBase
+from ...core import utils
+from ...db import models
+from ...db.curd import ResourceBase
 
 
 class City(ResourceBase):

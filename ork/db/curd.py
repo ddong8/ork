@@ -13,12 +13,12 @@ from contextlib import contextmanager
 
 import sqlalchemy.exc
 
-from ork.core import config
-from ork.core import exception
-from ork.core import utils
-from ork.core.i18n import _
-from ork.db import filter_wrapper
-from ork.db import pool
+from ..core import config
+from ..core import exception
+from ..core import utils
+from ..core.i18n import _
+from ..db import filter_wrapper
+from ..db import pool
 
 CONF = config.CONF
 LOG = logging.getLogger(__name__)

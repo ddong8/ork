@@ -12,7 +12,7 @@
 #
 # import pika
 #
-# from ork.core import config
+# from ..core import config
 #
 # CONF = config.CONF
 #
