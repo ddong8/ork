@@ -19,7 +19,7 @@ from ..core.config import CONF
 from ..server.base_application import application
 
 
-def main():
+def run():
     """
     入口函数,根据操作系统类型使用多进程,
     Windows使用单进程,linux使用配置的进程数
@@ -37,7 +37,3 @@ def main():
     server.add_sockets(sockets)
     print("server serving on % s:% s" % (address, port))
     IOLoop.current().start()
-
-
-if __name__ == '__main__':
-    main()
