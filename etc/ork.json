@@ -10,7 +10,7 @@
         "port": 8080
     },
     "log": {
-        "path": "var/log/ork/server.log",
+        "path": "/var/log/ork/server.log",
         "stderr":true
     },
     "db": {
