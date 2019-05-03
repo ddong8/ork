@@ -1,0 +1,38 @@
+{
+    "public_endpoint": "http://ork.com/",
+    "locale_path": "/etc/ork/locale",
+    "SECRET_KEY": "DyoK5s5tc3SbbAn5Dzkm8ZoKk3TyFnENGiaQEIbxVWpgKzpl8xOf0TawjuthahLvDVc=",
+    "language": "zh_CN",
+    "debug": true,
+    "num_processes": 1,
+    "server": {
+        "address": "0.0.0.0",
+        "port": 8080
+    },
+    "log": {
+        "path": "var/log/ork/server.log",
+        "stderr":true
+    },
+    "db": {
+        "connection": "postgresql+psycopg2://postgres:123456@120.77.206.139/ork",
+        "pool_size": 3,
+        "pool_recycle": 3600,
+        "pool_timeout": 5,
+        "max_overflow": 5
+    },
+    "application": {
+        "names": [
+            "ork.apps.traffic"
+        ]
+    },
+    "message": {
+        "broker_url": "amqp://makaira:makaira@100.69.13.71:6521/%2F",
+        "exchange_name": "makaira",
+        "exchange_type": "topic",
+        "enabled": true,
+        "broker": "100.69.13.71",
+        "port": "6521",
+        "username": "makaira",
+        "password": "makaira"
+    }
+}
