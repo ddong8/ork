@@ -1,1 +1,1 @@
-A RESTful api web framework.
+Backend for ihasy.
