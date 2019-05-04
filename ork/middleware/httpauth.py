@@ -31,4 +31,4 @@ class HTTPAuthorization(MiddleWare):
             else:
                 raise exception.AuthError(message=_("Basic auth username or password isn't correct!"))
         else:
-            raise exception.AuthError(message=_("missing Authorization header"))
+            raise exception.AuthError(message=_("Missing Authorization header"))
