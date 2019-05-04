@@ -18,6 +18,7 @@ from ...common.consumer import SubscribeConsumer
 from ...common.handler import CollectionHandler
 from ...common.handler import ItemHandler
 from ...common.handler import WSHandler
+from ...core.base import BaseHandler
 
 LOG = logging.getLogger(__name__)
 
@@ -89,3 +90,10 @@ class CollectionLine(CollectionHandler):
 class ItemLine(ItemHandler):
     name = 'traffic.line'
     resource = resource.Line
+
+
+class Index(BaseHandler):
+    allow_methods = ("GET", "POST")
+
+    def get(self):
+        self.write("Welcome to api service !")
