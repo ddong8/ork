@@ -93,7 +93,7 @@ class ItemLine(ItemHandler):
 
 
 class Index(BaseHandler):
-    allow_methods = ("GET", "POST")
+    allow_methods = ("GET",)
 
     def get(self):
         self.write("Welcome to api service !")
