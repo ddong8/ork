@@ -14,7 +14,7 @@
         "stderr":true
     },
     "db": {
-        "connection": "postgresql+psycopg2://postgres:123456@localhost/ork",
+        "connection": "postgresql+psycopg2://postgres:123456@db/ork",
         "pool_size": 3,
         "pool_recycle": 3600,
         "pool_timeout": 5,
